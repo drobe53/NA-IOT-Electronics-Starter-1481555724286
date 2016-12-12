@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: NA-IOT-Electronics-Starter
+  host: NA-IOT-Electronics-Starter
+  disk_quota: 1024M
+  services:
+  - NA-IOT-Electronics-Starter-ibm-iot-for-electronics
+  - NA-IOT-Electronics-Starter-iotf-service
+  - NA-IOT-Electronics-Starter-AdvancedMobileAccess
